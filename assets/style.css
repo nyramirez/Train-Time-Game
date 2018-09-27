@@ -1,0 +1,50 @@
+#mainContainer{
+    margin-top:2vh;
+    margin-bottom: 2vh;
+}
+
+#mainBlock {
+    background-color: brown;
+    color: white;
+    height: 18vh;
+    width: auto;
+}
+
+h1 {
+    margin-top: 2vh;
+    font-size: 3.5rem;
+}
+
+h3 {
+    margin-top: 1vh;
+    font-size: 1.7rem;
+}
+
+h5 {
+    margin: 1vh;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+th {
+    font-size: 1rem;
+    text-align: left;
+}
+
+td {
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+table {
+    height: 30vh;
+}
+
+form {
+    height: 40vh;
+    margin-top:1vh;
+}
+
+label {
+    font-size: 1rem;
+}

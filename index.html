@@ -9,75 +9,75 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <div id="mainBlock" class="container">
-        <div class="row">
-            <div class="col text-center">
-                <h1>Anytime is Train Time</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col text-center">
-                <h3>Choo Choo. Chee Chee</h3>
-            </div>
-        </div>
-    </div>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h5>Current Train Schedule</h5>
-            </div>
-        </div>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">Train Name</th>
-                    <th scope="col">Destination</th>
-                    <th scope="col">Frequency (min)</th>
-                    <th scope="col">Next Arrival</th>
-                    <th scope="col">Minutes Away</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Test 1</td>
-                    <td>Test 1</td>
-                    <td>Test 1</td>
-                    <td>Test 1</td>
-                    <td>Test 1</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <br>
-    <div class="container">
+    <div id="mainContainer" class="container">
+        <div id="mainBlock" class="container rounded">
             <div class="row">
+                <div class="col text-center">
+                    <h1>Anytime is Train Time</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <h3>Choo Choo. Chee Chee</h3>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container rounded border border-primary">
+            <div class="row p-1 bg-primary text-white">
+                <div class="col">
+                    <h5>Current Train Schedule</h5>
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Train Name</th>
+                        <th scope="col">Destination</th>
+                        <th scope="col">Frequency (min)</th>
+                        <th scope="col">Next Arrival</th>
+                        <th scope="col">Minutes Away</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Test 1</td>
+                        <td>Test 1</td>
+                        <td>Test 1</td>
+                        <td>Test 1</td>
+                        <td>Test 1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div class="container rounded border border-primary">
+            <div class="row p-1 bg-primary text-white">
                 <div class="col">
                     <h5>Add Train</h5>
                 </div>
             </div>
             <form>
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Train Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                    <label for="trainName">Train Name</label>
+                    <input type="email" class="form-control form-control-sm" id="trainName" aria-describedby="emailHelp" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Destination</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                    <label for="destination">Destination</label>
+                    <input type="password" class="form-control form-control-sm" id="destination" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">First Train Time (HH:mm - military time)</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                    <label for="nextTrain">First Train Time (HH:mm - military time)</label>
+                    <input type="password" class="form-control form-control-sm" id="nextTrain" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Frequency (min)</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                    <label for="frequency">Frequency (min)</label>
+                    <input type="password" class="form-control form-control-sm" id="frequency" placeholder="">
                 </div>
-                
                 <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-            
+            </form>    
         </div>
+    </div>
 
 
 
