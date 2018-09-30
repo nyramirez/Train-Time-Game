@@ -70,6 +70,7 @@ $(document).ready(function () {
             frequency: freq,
         });
 
+
     });
 
     database.ref().on("child_added", function (childSnapshot) {
@@ -97,6 +98,10 @@ $(document).ready(function () {
     });
 
 
+    $("#train-Name").clear();
+    $("#destination-ID").clear();
+    $("#first-Train").clear();
+    $("#frequency-ID").clear();
 
 
 });
